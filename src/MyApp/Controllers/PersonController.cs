@@ -10,7 +10,7 @@ public class PersonController:ControllerBase
 
     public PersonController(AppDbContext appDbContext)
     {
-        _appDbContext = appDbContext;
+        _appDbContext = appDbContexts;
     }
 
     [HttpGet()]
